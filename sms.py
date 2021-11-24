@@ -12,14 +12,14 @@ from bs4 import BeautifulSoup as bs
 def logo():
 	os.system('clear')
 	print '''%s
-        %sCoded by D4RKSH4D0WS%s
+        %s♛ Coded by Skyw4lkeR77 ♛%s
 ╭━━━┳━╮╭━┳━━━╮╱╱╭━━━┳━━━┳━━━┳━━━━┳━━┳━━━╮
 ┃╭━╮┃┃╰╯┃┃╭━╮┃╱╱┃╭━╮┃╭━╮┃╭━╮┃╭╮╭╮┣┫┣┫╭━╮┃
 ┃╰━━┫╭╮╭╮┃╰━━╮╱╱┃┃╱╰┫╰━╯┃┃╱┃┣╯┃┃╰╯┃┃┃╰━━╮
 ╰━━╮┃┃┃┃┃┣━━╮┣━━┫┃╭━┫╭╮╭┫╰━╯┃╱┃┃╱╱┃┃╰━━╮┃
 ┃╰━╯┃┃┃┃┃┃╰━╯┣━━┫╰┻━┃┃┃╰┫╭━╮┃╱┃┃╱╭┫┣┫╰━╯┃
 ╰━━━┻╯╰╯╰┻━━━╯╱╱╰━━━┻╯╰━┻╯╱╰╯╱╰╯╱╰━━┻━━━╯
-\n\n * SMS Gratis by Xractz - IndoSec\n * Gunakan kode negara (ex: 628xxxxx)\n
+\n\n * Github: https://github.com/Skyw4lkeR77\n * Gunakan kode negara (ex: 08xxxxxxx)\n
 '''%(C,W,C)
 def sms(nomer,pesan):
 	r=requests.Session()
@@ -30,9 +30,9 @@ def sms(nomer,pesan):
 	else:exit('%s[%s!%s] Gagal, Karena lu jelek!'%(W,R,W))
 def main():
 	logo()
-	nomer=raw_input('%s[%s?%s] Masukkan Nomor : '%(W,Y,W))
+	nomer=raw_input('%s[%s♛%s] Masukkan Nomor : '%(W,Y,W))
 	if nomer=='':print '%s[%s!%s] Error'%(W,R,W);time.sleep(1);main()
-	pesan=raw_input('%s[%s?%s] Input message : '%(W,Y,W))
+	pesan=raw_input('%s[%s♛%s] Input message : '%(W,Y,W))
 	if pesan=='':print '%s[%s!%s] Error'%(W,R,W);time.sleep(1);main()
 	sms(nomer,pesan)
 if __name__=='__main__':
