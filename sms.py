@@ -19,10 +19,8 @@ def logo():
 ╰━━╮┃┃┃┃┃┣━━╮┣━━┫┃╭━┫╭╮╭┫╰━╯┃╱┃┃╱╱┃┃╰━━╮┃
 ┃╰━╯┃┃┃┃┃┃╰━╯┣━━┫╰┻━┃┃┃╰┫╭━╮┃╱┃┃╱╭┫┣┫╰━╯┃
 ╰━━━┻╯╰╯╰┻━━━╯╱╱╰━━━┻╯╰━┻╯╱╰╯╱╰╯╱╰━━┻━━━╯
+\n\n * SMS Gratis by Xractz - IndoSec\n * Gunakan kode negara (ex: 628xxxxx)\n
 '''%(C,W,C)
-try:
-	print("\n\n * SMS Gratis by Xractz - IndoSec\n * Gunakan kode negara (ex: 628xxxxx)\n")
-
 def sms(nomer,pesan):
 	r=requests.Session()
 	scrape=r.get('https://alpha.payuterus.biz/index.php',headers={'user-agent': 'Mozilla/5.0 (Linux; Android 10; M2004J19C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36','accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}).text
